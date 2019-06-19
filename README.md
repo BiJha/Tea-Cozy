@@ -1,2 +1,1 @@
-# Tea-Cozy
-Create a fictional tea shop website.
+Create a fictional tea store.
