@@ -1,6 +1,13 @@
 
+
 body {
-    border-color: black;
+   font-family: Helvetica;
+   font-size: 22px;
+   color: seashell
+   background-color: black;
+   opacity: 0.9
+   text-align: center;
+
 }
 
 header {
@@ -10,36 +17,52 @@ header {
   border-bottom: 1px solid seashell;
   position: fixed;
   display: flex;
-
-
-
-
+  z-index: 1;
+  top: 0px;
 
 }
 
+.home-list {
+     display: flex;
+ }
 
- nav li{
+.home-list li{
     text-decoration: underline;
     color: white;
     display: inline-block;
+    justify-content: flex-end;
 }
 
 
 .logo img {
     height: 50px;
-    margin: 10px;
+    padding: 10px;
 
 
 }
 
 .main-content {
     background-image: url(./images/main-background.jpg);
+    background-size: cover;
     width: 1200px;
     height: 700px;
+
+
 }
 
+.main-content h2 h4 {
+    display: flex;
+    justify-content: center;
+å
+}
+
+
+
+
 .tea-month {
+    display: flex;
     width: 1000px;
+    justify-content: center;
 }
 
 #tea-types {
@@ -87,7 +110,13 @@ header {
 
 }
 
+.contact h2 h5 p {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
 .footer {
-    padding: 20px;
+    padding-left: 20px;
     text-align: left;
 }
