@@ -122,7 +122,8 @@ li a {
     width: 300px;
     height: 200px;
     padding: 10px 0;
-    margin: auto;
+    margin: 40px;
+    opacity: 1;
     background-color: black;
     color: white;
 }
