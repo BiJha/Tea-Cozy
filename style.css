@@ -1,14 +1,15 @@
 
 
+
 body {
    font-family: Helvetica;
    font-size: 22px;
    color: seashell
    background-color: black;
-   opacity: 0.9
+   opacity: 0.9;
    text-align: center;
-
 }
+
 
 header {
   width: 100%;
@@ -19,104 +20,127 @@ header {
   display: flex;
   z-index: 1;
   top: 0px;
-
+  justify-content: space-between;
 }
+
 
 .home-list {
      display: flex;
+     justify-content: space-between;
  }
+
 
 .home-list li{
     text-decoration: underline;
-    color: white;
     display: inline-block;
     justify-content: flex-end;
+    margin-right: 20px;
+}
+
+
+li a {
+    color: white;
 }
 
 
 .logo img {
     height: 50px;
     padding: 10px;
-
-
 }
 
-.main-content {
+
+#mission {
     background-image: url(./images/main-background.jpg);
     background-size: cover;
     width: 1200px;
     height: 700px;
-
-
-}
-
-.main-content h2 h4 {
+    margin: 0px;
     display: flex;
     justify-content: center;
-å
+    align-items: center;
+}
+
+
+.main-content {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+
+}
+
+
+#featured-tea {
+    text-align: center;
+    margin: 0px;
+    background-color: black;
+    color: white;
 }
 
 
 
 
-.tea-month {
-    display: flex;
-    width: 1000px;
-    justify-content: center;
-}
-
-#tea-types {
-    display: flex;
+.tea-types {
+    display: inline-flex;
+    max-width: 1000px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
-
 
 
 .tea img {
-    display: flex;
-    width: 200px;
-    height: 300px;
-    margin: 10px;
-
+    width: 300px;
+    height: 200px;
+    padding: 10px;
 }
 
 
-
-
-
-#locations-section {
-    display: flex;
-    width: 1200px;
-    height: 500px;
+#locations {
     background-image: url(./images/locations.jpg);
     background-size: cover;
-
-}
-
-#locations-section h2 {
-    width: 100%
-    margin: 80px 0 20px 0;
-    align-items: center;
-}
-
-.locations {
-    width: 300px;
-    opacity: 1;
+    width: 1200px;
+    height: 500px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid black;
-
-}
-
-.contact h2 h5 p {
-    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    height: 200px;
+    align-items: center;
+    align-content: flex-start;
+    background-color: black;
 }
 
-.footer {
-    padding-left: 20px;
+
+#locations h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+}
+
+
+.locations-section {
+    width: 300px;
+    height: 200px;
+    padding: 10px 0;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+
+
+.contact {
+    height: 200px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+footer {
     text-align: left;
+    padding: 5px 20px;
+    background-color: black;
+    color: white;
 }
