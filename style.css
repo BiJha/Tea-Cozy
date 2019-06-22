@@ -4,7 +4,7 @@
 body {
    font-family: Helvetica;
    font-size: 22px;
-   color: seashell
+   color: seashell;
    background-color: black;
    opacity: 0.9;
    text-align: center;
@@ -54,7 +54,7 @@ li a {
     background-size: cover;
     width: 1200px;
     height: 700px;
-    margin: 0px;
+    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ li a {
 
 
 .main-content {
-    color: white;
+    
     background-color: black;
     padding: 10px;
     width: 100%;
@@ -73,8 +73,7 @@ li a {
 #featured-tea {
     text-align: center;
     margin: 0px;
-    background-color: black;
-    color: white;
+    
 }
 
 
@@ -103,39 +102,36 @@ li a {
     background-size: cover;
     width: 1200px;
     height: 500px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     align-content: flex-start;
-    background-color: black;
+   
 }
 
 
 #locations h2 {
     width: 100%;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 15px;
 }
 
 
 .locations-section {
     width: 300px;
-    height: 200px;
     padding: 10px 0;
-    margin: 40px;
+    margin: 15px 20px 200px 20px;
     opacity: 1;
-    background-color: black;
-    color: white;
+    
 }
 
 
 .contact {
     height: 200px;
     text-align: center;
-    background-color: black;
-    color: white;
     margin: 0px;
     padding: 10px;
 }
@@ -144,6 +140,4 @@ li a {
 footer {
     text-align: left;
     padding: 5px 20px;
-    background-color: black;
-    color: white;
 }
